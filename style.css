@@ -1,0 +1,11 @@
+.subtitle {
+    color: lightblue;
+}
+
+.button {
+    border: 0;
+    background: #20b2aa;
+    color: grey;
+    padding: 5px 15px;
+    border-radius: 5%;
+}
