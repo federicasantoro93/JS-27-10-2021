@@ -5,8 +5,10 @@
 }
 
 .myDarkMode{
-    background-color: black;
+    background-color:#0D0D0D;
+    color: #F2F2F2;
 }
+
 
 body{
     height:100%;
@@ -41,8 +43,58 @@ body{
     text-decoration: none;
     cursor: pointer;
     font-size: 15px;
-     
-}h1{
+   
+}
+
+.cerchio {
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    top: 10px;
+    right: 130px;
+    background-color: #8C6E64;
+    border: 2px #734432 solid;
+    color: #F2F2F2;
+    display: inline-block;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.cerchioRosa{
+    background-color: #734432;
+    border: 2p #F2F2F2 solid;
+}
+.cerchio:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+  }
+.hobby h3{
+    display:inline;
+}
+  .lightModeBtn{
+    display: inline;
+    height: 20px;
+    width: 60px;
+    background-color: #8C6E64;
+    border: 2px #734432 solid;
+    color: #F2F2F2;
+    display: inline;
+    border-radius: 7px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 8px;
+    margin-left: 10px;
+}
+
+
+.myLightMode{
+    background-color: lightyellow;
+    color:#260101;
+}
+
+h1{
     font-size: 25px;
     padding: 10px 0px;
 }
@@ -75,8 +127,13 @@ ul {
 .contatti ul li {
     display: inline;
         padding: 0 10px;
+        color: #260101;
     }
     
+    .recapitiSize{
+        color: #F2F2F2;
+        background-color: #260101;
+    }
 
 /* foooter */
 footer {
@@ -84,8 +141,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color:#734432;
-    padding: 5px 5px;
+    background-color:#734432;   
     text-align: center;
-    color: white;
+    color: #F2F2F2;
 }
