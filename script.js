@@ -65,3 +65,22 @@ const SizeOnMouse = document.querySelector ('.contatti') //Ho selezionato il div
   SizeOnMouse.classList.toggle("recapitiSize")
   });
 
+  //FUNZIONE
+
+  const sum = (numOne, numTwo) => (numOne + numTwo) //funzione somma
+
+  let chosenNumbers = prompt("Digita due numeri interi separati da una virgola:")
+
+  const numbers = chosenNumbers.split(',');
+
+  const parsedNumbers = [];
+
+  for(x of numbers){
+  parsedNumbers.push(parseInt(x));
+  }
+   //console.log(parsedNumbers);
+   //console.log(sum(parsedNumbers[0],parsedNumbers[1]));
+
+   setTimeout(() => {
+    console.log(sum(parsedNumbers[0],parsedNumbers[1]));
+  }, 10000);
