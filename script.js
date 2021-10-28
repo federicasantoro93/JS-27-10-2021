@@ -56,10 +56,9 @@ const lightMode = document.querySelector ('.hobby') //Ho selezionato il div hobb
   lightMode.addEventListener ('click', () => {  
   lightMode.classList.toggle("myLightMode")
   });
+//funziona cliccando su tutta l'area, ma se voglio che si clicchi solo sul bottone?
 
 //CONTATTI
-//- Una sezione a scelta, che si comporta in modo dinamico (qui siate creativi voi sul comportamento da assegnarle)
-
 const SizeOnMouse = document.querySelector ('.contatti') //Ho selezionato il div contatti tramite la classe
 
   SizeOnMouse.addEventListener ('mouseover', () => {  
